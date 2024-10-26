@@ -36,7 +36,7 @@ function TodoApp() {
         {/* Header */}
         <header className="flex items-center justify-between">
           <h1 className="text-2xl md:text-4xl font-bold">To-Do List</h1>
-          <div className="flex items-center">
+          <div className="flex items-center gap-5">
             <button
               className="text-xl p-2 md:hidden"
               onClick={() => setShowSidebar(!showSidebar)}
@@ -49,7 +49,7 @@ function TodoApp() {
             >
               {darkMode ? <FaSun /> : <FaMoon />}
             </button>
-            <Link to='/'> <FaUser className="ml-4 text-2xl" /> </Link>
+            <Link to='/'> Add + </Link>
           </div>
         </header>
 
