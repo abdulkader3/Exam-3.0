@@ -65,6 +65,10 @@ function TodoList() {
           <div className="w-[60px]">Task 0</div>
           <div className="w-[60px]">Done 0</div>
         </div>
+        <div className="w-[90%] flex justify-end gap-3 text-white font-semibold ">
+        <Link className=' bg-transparent py-2 px-4 hover:bg-white hover:text-black rounded-2xl transition-all hover:scale-95 active:scale-100  ' to='/login'> Sing In </Link>
+        <Link className=' bg-transparent py-2 px-4 hover:bg-white hover:text-black rounded-2xl transition-all hover:scale-95 active:scale-100  ' to='/regestion'> Sing Up </Link>
+        </div>
         <Link className='ml-auto' to='/userprofile'> <FaUser className='text-[30px] text-white ' /> </Link>
         
       </div>
